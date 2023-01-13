@@ -1,0 +1,124 @@
+body{
+    margin: 0;
+    background-color: #FAF0E6;
+}
+h1{
+    font-size: 3em; /* 100%=16px=1em */
+    line-height: 2;
+    position: relative;
+    top: 200px;
+    left: 60px;
+    margin: 0;
+}
+h2{
+    font-family: 'DM Serif Display', serif;
+    color: #3C2A21;
+    font-weight: normal;
+}
+h3{
+    font-family: 'DM Serif Display', serif;
+    color: #3C2A21;
+}
+p{ 
+    font-size: 20px;
+    font-family: 'Bebas Neue', cursive;
+    color: #704F4F;
+}
+hr{
+    border: dotted #704F4F 5px;
+    border-bottom: none;
+    opacity: 50%;
+    width: 4%;
+    margin: 50px auto;
+}
+#first-page-para{
+    margin-top: 0px;
+    position: relative;
+    top: 200px;
+    left: 60px;
+}
+.top-container{
+    position: relative;
+    background-image: url(https://images.unsplash.com/photo-1545989253-02cc26577f88?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+    font-family: 'DM Serif Display', serif;
+    color: #3C2A21;
+}
+.middle-container{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+.bottom-container{
+    padding: 30px;
+    margin-bottom: 0px;
+    margin-top: 60px;
+    text-align: center;
+    background-color: #987456;
+}
+.skill-row-1{
+    width: 50%;
+    margin: 100px auto 100px auto;
+    text-align: left;
+    line-height: 1.5;
+}
+.skill-row-2{
+    width: 50%;
+    margin: 100px auto 100px auto;
+    text-align: right;
+    line-height: 1.5;
+}
+.designing{
+    float: left;
+    margin-right: 30px;
+}
+.Football{
+    float: right;
+    margin-left: 30px;
+}
+/* .des-para-desc{
+    clear: left;
+} */
+.copyrights{
+    margin-bottom: 0;
+    color: #EDE1CF;
+}
+.footer-link{
+    font-family: 'Bebas Neue', cursive;;
+    color: #D9C5BC;
+    margin: 30px;
+    text-decoration: none;
+}
+.footer-link:hover{
+    color: aliceblue;
+}
+.btn {
+    -webkit-border-radius: 5;
+    -moz-border-radius: 5;
+    border-radius: 5px;
+    font-family: 'Bebas Neue', cursive;
+    color: #3C2A21;
+    font-size: 20px;
+    background: #D9C5BC;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+}
+  
+.btn:hover {
+    background: #EDE1CF;
+    text-decoration: none;
+}
+.con-me{
+    margin-bottom: 70px;
+}
+.skills{
+    margin-top: 40px;
+}
+.pp{
+    margin: 30px;
+}
